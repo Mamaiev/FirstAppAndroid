@@ -4,10 +4,25 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
         >
-    <TextView
-            android:layout_width="fill_parent"
+    <EditText
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
-            />
+            android:id="@+id/login" android:text="@string/login"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/password" android:text="@string/password"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="87dp"
+            android:text="@string/btn_1"
+            android:id="@+id/btn1" android:layout_gravity="center_horizontal" android:onClick="sendData"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_2"
+            android:id="@+id/btn2" android:layout_gravity="right" android:onClick="onPosition"/>
 </LinearLayout>
 

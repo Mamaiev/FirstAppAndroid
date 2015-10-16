@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FirstAppAndroid</string>
+    <string name="login">FirstApp</string>
+    <string name="password">FirstApp</string>
+    <string name="btn_1">Go to new Activity</string>
+    <string name="btn_2">Back</string>
+    <string name="firstEmblema">Back</string>
+    <string name="app_name">Back</string>
 </resources>
